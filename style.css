@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#question {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#answer {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    background: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #45a049;
+}
+
+#feedback {
+    font-size: 18px;
+    margin-top: 10px;
+}
